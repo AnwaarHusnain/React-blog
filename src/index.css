@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500&family=Della+Respira&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  @apply bg-white w-5 h-5 text-gray p-5 rounded-full shadow-2xl absolute top-[33%];
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  @apply text-base;
+}
+
+.swiper-pagination-bullets-dynamic{
+  @apply absolute bottom-0 mt-5 text-white text-2xl 
+}
+.swiper-pagination-bullets{
+  @apply  text-white text-2xl 
+}
