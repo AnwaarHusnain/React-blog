@@ -11,7 +11,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto font-secondaryfont border">
+    <div className="max-w-screen-2xl mx-auto font-secondaryfont">
       <Navbar />
       <Outlet />
       <Footer />

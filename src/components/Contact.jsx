@@ -48,7 +48,7 @@ const Contact = () => {
           </div>
         </div>
         <h3 className="font-primaryfont">Messages</h3>
-        <p className="text-gray text-sm">
+        <p className="text-gray text-sm 2xl:pr-24">
           Lorem ipsum dolor sit amet consectetur. Maecenas ipsum ultricies
           vivamus risus ultrices vestibulum. Quisque bibendum lectus tincidunt
           neque sed egestas gravida cras diam. Turpis placerat nec ullamcorper
